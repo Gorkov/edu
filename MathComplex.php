@@ -1,16 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: gorkov
- * Date: 25.10.2018
- * Time: 22:15
- */
 
 class MathComplex
 {
     public $re, $im;
 
-    function __construct($re, $im)
+    function __construct($re = 0, $im = 0)
     {
         $this->re = $re;
         $this->im = $im;
